@@ -120,9 +120,12 @@
       display: flex;
       align-items: center;
       margin-left: 10px;
-      margin-top: 40px;
+      margin-top: 20px;
+      margin-bottom: 20px;
 
   }
+
+  
 
 .sidenav{
   background-image:url("../../static/image/grid.png");

@@ -1,7 +1,6 @@
-import './App.css';
-import $ from 'jquery'
 import NavBar from './components/NavBar/NavBar';
 import SideNav from './components/SideNav/SideNav'
+import './App.css';
 function App() {
 
   const RightHandler =()=>{
@@ -15,7 +14,7 @@ function App() {
   return (
     <>
     <div className="App" id='main'>
-      <h1>hello</h1>
+      <NavBar/>
     </div>
 
     <SideNav Right={RightHandler} Left={LeftHandler}/>
