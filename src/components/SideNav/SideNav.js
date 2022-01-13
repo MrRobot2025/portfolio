@@ -4,6 +4,7 @@ import home from "../../static/image/home.svg"
 import Project from "../../static/image/project.svg"
 import Blog from "../../static/image/pen.svg"
 import Book from "../../static/image/booksss.svg"
+import Background from "../../static/image/grid.png"
 
 
 
@@ -11,19 +12,24 @@ const SideNav = (props) =>{
     let value = 2;
     const OnClickHandler=()=>
     {   
-        console.log(value);
+        const AppRight = props.Right;
+        const AppLeft = props.Left;
         value++;
         console.log("Yep!!!!");
         $(".mobile-nav").toggleClass("js--mobile");
 
-        if(value%2!=0)
+        if(value%2!==0)
         {
             document.getElementById("mySidenav").style.width = "250px";
+            AppRight()
         }
-        if(value%2==0)
+        if(value%2===0)
         {
             document.getElementById("mySidenav").style.width = "50px";
+            AppLeft()
         }
+        
+        
 
             
     }
@@ -32,6 +38,7 @@ const SideNav = (props) =>{
     return(
     <>
         <div id="mySidenav" className="sidenav">
+            
             <div className="mobile-nav" onClick={OnClickHandler}>
                 <div className="mobile-nav_first-line"></div>
                 <div className="mobile-nav_second-line"></div>
@@ -40,7 +47,7 @@ const SideNav = (props) =>{
 
             <div className="links">
                 <div>
-                    <img src={home}></img>
+                    <img src={home} alt="Home"></img>
                     <a href="#">Home</a>
                 </div>
                 <div>

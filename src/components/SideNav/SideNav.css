@@ -3,7 +3,7 @@
     height: 100%; /* 100% Full-height */
     width: 50px; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    z-index: 2; /* Stay on top */
     top: 0;
     left: 0;
     background-color: #111; /* Black*/
@@ -18,14 +18,14 @@
     padding: 8px 8px 8px 2px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #fff;
     display: block;
     transition: 0.3s;
   }
   
   /* When you mouse over the navigation links, change their color */
   .sidenav a:hover {
-    color: #f1f1f1;
+    color: #5ed091;
   }
  .closebtn-container{
      padding-left: 0px;
@@ -101,6 +101,9 @@
   .links a{
       margin-left: 50px;
   }
+  .links a:hover{
+      cursor: pointer;
+  }
 
   .links div img{
       height: 25px;
@@ -109,7 +112,7 @@
   }
   .links div img:hover{
       opacity: 2;
-      cursor: pointer;
+      cursor:alias;
       
   }
 
@@ -120,3 +123,12 @@
       margin-top: 40px;
 
   }
+
+.sidenav{
+  background-image:url("../../static/image/grid.png");
+  background-position: 10px 10px;
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: 100px 110px ;
+  
+}
