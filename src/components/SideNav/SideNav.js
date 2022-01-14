@@ -4,7 +4,7 @@ import home from "../../static/image/home.svg"
 import Project from "../../static/image/project.svg"
 import Blog from "../../static/image/pen.svg"
 import Book from "../../static/image/booksss.svg"
-import Background from "../../static/image/grid.png"
+
 
 
 
@@ -38,12 +38,14 @@ const SideNav = (props) =>{
     return(
     <>
         <div id="mySidenav" className="sidenav">
-            
-            <div className="mobile-nav" onClick={OnClickHandler}>
+            <div className="nav-hum">
+                <div className="mobile-nav" onClick={OnClickHandler}>
                 <div className="mobile-nav_first-line"></div>
                 <div className="mobile-nav_second-line"></div>
                 <div className="mobile-nav_third-line"></div>
             </div>
+            </div>
+            
 
             <div className="links">
                 <div>

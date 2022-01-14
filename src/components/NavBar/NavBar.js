@@ -14,14 +14,14 @@ const NavBar=()=>{
            </div>
            
            <div>
-               <span className="title">M</span>
-               <span className="title">R</span>
-               <span className="title">.</span>
-               <span className="title">R</span>
-               <span className="title">O</span>
-               <span className="title">B</span>
-               <span className="title">O</span>
-               <span className="title">T</span>
+               <span className="title m1">M</span>
+               <span className="title m2">R</span>
+               <span className="title m3">.</span>
+               <span className="title m4">R</span>
+               <span className="title m5">O</span>
+               <span className="title m6">B</span>
+               <span className="title m7">O</span>
+               <span className="title m8">T</span>
            </div>
             
             <div>

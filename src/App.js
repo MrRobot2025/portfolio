@@ -13,10 +13,12 @@ function App() {
   }
   return (
     <>
-    <div className="App" id='main'>
+    <div id='main'>
       <NavBar/>
     </div>
-
+      
+  
+    
     <SideNav Right={RightHandler} Left={LeftHandler}/>
     </>
     

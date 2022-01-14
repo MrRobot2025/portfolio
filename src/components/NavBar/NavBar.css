@@ -6,6 +6,7 @@
     padding: 30px;
     font-family: 'Inter', sans-serif;
     display: flex;
+    padding-left: 50px;
 }
 
 .container span{
@@ -16,6 +17,7 @@
     font-size: 40px;
     margin: 10px;
     color: #8f9094;
+    animation: brace 0.8s alternate 0s infinite;
 }
 .curl:hover{
     color:whitesmoke;
@@ -33,10 +35,72 @@
     font-size: 40px;
     margin-top: 20px;
     text-align: center;
+   
+}
+.m1{
+     animation: titles 0.5s alternate 0.5s;
+}
+.m2{
+     animation: titles 0.5s alternate 1s;
+}
+.m3{
+     animation: titles 0.5s alternate 1.5s;
+}
+.m4{
+     animation: titles 0.5s alternate 2s;
+}
+.m5{
+     animation: titles 0.5s alternate 2.5s;
+}
+.m6{
+     animation: titles 0.5s alternate 3s;
+}
+.m7{
+     animation: titles 0.5s alternate 3.5s;
+}
+.m8{
+     animation: titles 0.5s alternate 4s;
+}
+.m9{
+     animation: titles 0.5s alternate 4.5s;
 }
 
 .curl-div{
     margin-bottom: 10px;
+
 }
 
+@keyframes titles {
+    0%{
+        color:white;
+    }
+    100%{
+        color:#5ed091;
+    }
+}
 
+@keyframes brace {
+    0%{
+        color:#8f9094;
+    }
+    100%{
+        color:#fff;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container{
+        padding: 20px;
+        padding-left: 60px;
+    }
+    .curl{
+        font-size: 20px;
+        margin: 5px;
+    }
+    .title{
+        font-size: 20px;
+        margin-top: 20px;
+        
+       
+    }
+  }
