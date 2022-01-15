@@ -10,7 +10,7 @@ const Hero = ()=>{
             <p className="Name">Rishabh Singh.</p>
             <p className="des"><span id="soft">Software Engineer.</span> A self-taught developer with an<br></br>interest in Computer Science.</p>
             <p className="status">🚀 Exploring opportunities and side projects.</p>
-            <p className="status">🎓 Currently an Informatics Student at Universitas Negeri Surabaya.</p>
+            <p className="status">🎓 Currently an Engineering Student at NIT Prayagraj.</p>
 
             <div className="button-c">
                 <div>
