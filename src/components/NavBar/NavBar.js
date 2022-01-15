@@ -22,6 +22,7 @@ const NavBar=()=>{
                <span className="title m6">B</span>
                <span className="title m7">O</span>
                <span className="title m8">T</span>
+               <span className="title slash">_</span>
            </div>
             
             <div>

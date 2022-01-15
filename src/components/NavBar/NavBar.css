@@ -61,14 +61,13 @@
 .m8{
      animation: titles 0.5s alternate 4s;
 }
-.m9{
-     animation: titles 0.5s alternate 4.5s;
-}
+
 
 .curl-div{
     margin-bottom: 10px;
 
 }
+
 
 @keyframes titles {
     0%{
@@ -78,6 +77,16 @@
         color:#5ed091;
     }
 }
+@keyframes blinking {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
+
 
 @keyframes brace {
     0%{
@@ -104,3 +113,9 @@
        
     }
   }
+
+  .slash{
+    animation: blinking  alternate  infinite;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
