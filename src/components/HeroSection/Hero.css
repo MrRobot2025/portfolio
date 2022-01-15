@@ -1,0 +1,111 @@
+.intro{
+    color:#5ed091;
+    font-family: 'Inter', sans-serif;
+    font-weight:600;
+    font-size: 30px;
+}
+
+.Name{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 100px;
+    margin-top: -25px;
+    margin-left: 25px;
+    margin-bottom:30px ;
+}
+.des{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #888;
+    margin-left: 25px;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+#soft{
+    color: white;
+}
+.status{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #888;
+    margin-left: 25px;
+    margin-bottom: -20px;
+}
+
+.button-c{
+    margin-top: 55px;
+    margin-left: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button-c a{
+    outline: none;
+    margin-right: 15px;
+    text-decoration: none;
+    
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight:600;
+    
+}
+.button-c div{
+    background-color: rgb(32, 32, 32);
+    padding:10px 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.button-c div img{
+    margin-right: 10px;
+}
+
+.button-c div:hover{
+    background-color: rgb(43, 43, 43);
+    cursor: pointer;
+}
+
+.HeroContainer{
+    margin-top: 100px;
+    margin-left: 150px;
+    background-image: url("../../static/image/dotted.svg");
+    background-repeat: no-repeat;
+    padding-top: 2px;
+    padding-left: 20px;
+    width: 100%;
+    
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .intro{
+        font-size: 20px;
+    }
+    .Name{
+        font-size: 40px;
+    }
+    .des{
+        font-size: 15px;
+    }
+    .HeroContainer{
+        margin-top: 50px;
+        margin-left: 20px;
+        background-size: 100px;
+    }
+    .button-c div{
+        margin-top: 10px;
+    }
+    .button-c{
+        justify-content: center;
+    }
+    .status{
+        font-size: 10px;
+        margin-bottom: -10px;
+    }
+}

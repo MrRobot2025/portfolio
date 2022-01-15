@@ -1,6 +1,7 @@
 import NavBar from './components/NavBar/NavBar';
 import SideNav from './components/SideNav/SideNav'
 import './App.css';
+import Hero from './components/HeroSection/Hero';
 function App() {
 
   const RightHandler =()=>{
@@ -10,11 +11,13 @@ function App() {
   const LeftHandler =()=>{
     console.log("LeftHandler");
     document.getElementById("main").style.marginLeft = "50px";
+    
   }
   return (
     <>
     <div id='main'>
       <NavBar/>
+      <Hero/>
     </div>
       
   

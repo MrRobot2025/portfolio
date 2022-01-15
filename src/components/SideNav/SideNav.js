@@ -20,7 +20,7 @@ const SideNav = (props) =>{
 
         if(value%2!==0)
         {
-            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("mySidenav").style.width = "250px";            
             AppRight()
         }
         if(value%2===0)
@@ -38,12 +38,12 @@ const SideNav = (props) =>{
     return(
     <>
         <div id="mySidenav" className="sidenav">
-            <div className="nav-hum">
+            <div className="nav-hum" id="cross">
                 <div className="mobile-nav" onClick={OnClickHandler}>
-                <div className="mobile-nav_first-line"></div>
-                <div className="mobile-nav_second-line"></div>
-                <div className="mobile-nav_third-line"></div>
-            </div>
+                    <div className="mobile-nav_first-line"></div>
+                    <div className="mobile-nav_second-line"></div>
+                    <div className="mobile-nav_third-line"></div>
+                </div>
             </div>
             
 
