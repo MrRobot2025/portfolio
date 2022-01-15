@@ -17,8 +17,3 @@ code {
     monospace;
 }
 
-@media screen and (max-width: 480px){
-body {
-  touch-action: pan-x pan-y;
-}
-}
