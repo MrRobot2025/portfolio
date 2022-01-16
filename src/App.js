@@ -2,6 +2,7 @@ import NavBar from './components/NavBar/NavBar';
 import SideNav from './components/SideNav/SideNav'
 import './App.css';
 import Hero from './components/HeroSection/Hero';
+import About from './components/About/about';
 function App() {
 
   const RightHandler =()=>{
@@ -18,6 +19,7 @@ function App() {
     <div id='main'>
       <NavBar/>
       <Hero/>
+      <About/>
     </div>
       
   
