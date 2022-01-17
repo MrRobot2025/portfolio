@@ -6,6 +6,9 @@
     margin-top: 120px;
     padding: 40px 20px;
     flex-wrap: wrap;
+    background-image: url("../../static/image/dotted.svg");
+    background-repeat: no-repeat;
+    background-position: 760px 80px;
 }
 
 .left{
